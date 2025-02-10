@@ -1,0 +1,25 @@
+
+.MuiBox-root{
+  background-color: #f1e1f5 !important;
+}
+.MuiTableRow-root{
+  background-color: #f1e1f5 !important;
+}
+#delbtn{
+  transition: all 0.2s ease; 
+}
+#delbtn:hover{
+  transform: scale(1.05); 
+}
+.SearchIcon{
+  display: none;
+  visibility: hidden;
+}
+.MuiTableCell .th{
+  background-color: white !important;
+}
+.MuiTouchRipple-root{
+  display: none;
+}
+
+/*MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root*/

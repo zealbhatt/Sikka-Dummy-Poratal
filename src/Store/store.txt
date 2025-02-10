@@ -1,0 +1,51 @@
+import { createStore } from "redux";
+const initialstate = {
+  fname: "",
+  lname: "",
+  email: "",
+  phoneno: "",
+  password: "",
+  confirmpassword: "",
+  country: "",
+  state: "",
+  city: "",
+  zipcode: "",
+  currentaddress: "",
+  permanentaddress: "",
+};
+
+function SignupReducer(state = initialstate, action) {
+  switch (action.type) {
+    case "set_fname":
+      return { ...state, fname: action.fname };
+    case "set_lname":
+      return { ...state, lname: action.lname };
+    case "set_email":
+      return { ...state, email: action.email };
+    case "set_phoneno":
+      return { ...state, phoneno: action.phoneno };
+    case "set_password":
+      return { ...state, password: action.password };
+    case "set_confirmpassword":
+      return { ...state, confirmpassword: action.confirmpassword };
+    case "set_country":
+      return { ...state, country: action.country };
+    case "set_state":
+      return { ...state, state: action.state };
+    case "set_city":
+      return { ...state, city: action.city };
+    case "set_zipcode":
+      return { ...state, zipcode: action.zipcode };
+    case "set_currentaddress":
+      return { ...state, currentaddress: action.currentaddress };
+    case "set_permanentaddress":
+      return { ...state, permanentaddress: action.permanentaddress };
+      default:
+        return state;
+  }
+ 
+}
+
+const store = createStore(SignupReducer);
+
+export default store;

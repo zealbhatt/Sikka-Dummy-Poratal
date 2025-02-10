@@ -1,0 +1,19 @@
+.footer{
+    background-color: rgb(80, 77, 77);
+}
+#footerspan{
+    color: white;
+    cursor: pointer;
+}
+#footerspan:hover{
+    color: #ffc107;
+}
+#footer_p:hover{
+    color: #ffc107;
+}
+#footer_p{
+    color: white;
+}
+#footer_iconp:hover{
+    color: #ffc107;
+}

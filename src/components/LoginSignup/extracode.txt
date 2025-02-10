@@ -1,0 +1,173 @@
+
+ ............validate password..................
+
+  // function password_validate(p) {
+  //   return (
+  //     /[A-Z]/.test(p) &&
+  //     /[0-9]/.test(p) &&
+  //     !/[aeiou]/.test(p) &&
+  //     /^[@#][A-Za-z0-9]{7,13}$/.test(p)
+  //   );
+  // }
+
+.............diff state and errors for each state.............
+
+ // const [fname, setFname] = useState("");
+  // const [fnameerror, setfnameError] = useState("");
+
+  // const [lname, setLname] = useState("");
+  // const [lnameerror, setlnameError] = useState("");
+
+  // const [email, setEmail] = useState("");
+  // const [emailerror, setemailError] = useState("");
+
+  // const [phoneno, setPhoneno] = useState("");
+  // const [phoneerror, setphoneeError] = useState("");
+
+  // const [validphone, setValidPhone]= useState("");
+
+  // const [password, setPassword] = useState("");
+  // const [passerror, setPasserror] = useState("");
+
+  // const [confirmpassword, setConfirmPassword] = useState("");
+  // const [confipasserror, setconfipassError] = useState("");
+
+  // let [equlpass, setEqulpassError] = useState(false);
+
+  // const [country, setCountry] = useState("");
+  // const [countryerror, setcountryError] = useState("");
+
+  // const [state, setState] = useState("");
+  // const [stateerror, setstateError] = useState("");
+
+  // const [City, setCity] = useState("");
+  // const [cityerror, setcityError] = useState("");
+
+  // const [currentaddress, setCurrentaddress] = useState("");
+  // const [curradderror, setcurraddError] = useState("");
+
+  // const [permanentaddress, setPermanentaddress] = useState("");
+  // const [permadderror, setpermaddError] = useState("");
+
+  // const [zipcode, setZipcode] = useState("");
+  // const [zipcodeerror, setzipcodeError] = useState("");
+
+
+
+
+
+............handlechange for each and every function differently..............
+
+
+// const handleFnameChange = (e) => {
+  //   setFname(e.target.value);
+  // };
+  // const handleLnameChange = (e) => {
+  //   setLname(e.target.value);
+  // };
+  // const handleEmailChange = (e) => {
+  //   setEmail(e.target.value);
+  // };
+  // const handlePhoneChange = (e) => {
+  //   setPhoneno(e.target.value);
+  //   const pattern =/^\d{3}-\d{3}-\d{4}$/;
+
+  //   const phonenum=document.getElementById(phoneno);
+
+  //   const isValid=pattern.test(phonenum);
+  // document.getElementById('handlePhoneChange').textContent = isValid ? '' : 'Please enter a valid 10-digit phone number.';
+
+  // return isValid;
+  // };
+  // const handlePassChange = (e) => {
+  //   setPassword(e.target.value);
+  // };
+  // const handleConfPassChange = (e) => {
+  //   setConfirmPassword(e.target.value);
+  //   if(e.confirmpassword !== e.password){
+  //     setEqulpassError("password doesn't match .......")
+  //   }
+  // };
+  // const handleCountryChange = (e) => {
+  //   setCountry(e.target.value);
+  // };
+  // const handleStateChange = (e) => {
+  //   setState(e.target.value);
+  // };
+  // const handleCityChange = (e) => {
+  //   setCity(e.target.value);
+  // };
+  // const handleZipCodeChange = (e) => {
+  //   setZipcode(e.target.value);
+  // };
+  // const handleCurrAddChange = (e) => {
+  //   setCurrentaddress(e.target.value);
+  // };
+  // const handlePerAddChange = (e) => {
+  //   setPermanentaddress(e.target.value);
+  // };
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+
+  //   if (fname === "") {
+  //     setfnameError("Please enter Your first name !!");
+  //   }
+  //   if (lname === "") {
+  //     setlnameError("Please enter last name !!");
+  //   }
+  //   if (email === "") {
+  //     setemailError("Please enter email !!");
+  //   }
+
+  //   if (phoneno === "") {
+  //     setphoneeError("Please enter phone no. !!");
+  //   }
+
+  //   if (password === "") {
+  //     setPasserror("Please enter password !!");
+  //   }
+
+  //   if (confirmpassword === "") {
+  //     setconfipassError("Please enter confirm password !!");
+  //   }
+   
+  //   if (country === "") {
+  //     setcountryError("Please choose a country !!");
+  //   }
+  //   if (state === "") {
+  //     setstateError("Please enter state name !!");
+  //   }
+  //   if (City === "") {
+  //     setcityError("Please enter city name !!");
+  //   }
+  //   if (zipcode === "") {
+  //     setzipcodeError("Please enter zipcode !!");
+  //   }
+  //   if (currentaddress === "") {
+  //     setcurraddError("Please enter your current address !!");
+  //   }
+  //   if (permanentaddress === "") {
+  //     setpermaddError("Please enter your permanent address !!");
+  //   }
+  //   // if (
+  //   //   fname !== "" &&
+  //   //   lname !== "" &&
+  //   //   email !== "" &&
+  //   //   phoneno !== "" &&
+  //   //   password !== "" &&
+  //   //   confirmpassword !== "" &&
+  //   //   country !== "" &&
+  //   //   state !== "" &&
+  //   //   City !== "" &&
+  //   //   zipcode !== "" &&
+  //   //   currentaddress !== "" &&
+  //   //   permanentaddress !== ""
+  //   // ) {
+  //   //   navigate("Home");
+  //   // }
+
+  //   else{
+  //     navigate('Home');
+  //   }
+  // };

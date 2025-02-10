@@ -1,0 +1,125 @@
+/*animation */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  #teamimg {
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0; 
+  }
+  
+  .row > .col {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  .row {
+    margin-top: 3rem;
+  }
+
+   #teampara {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  } 
+  
+  h1 {
+    animation-delay: 0.5s;
+  }
+  
+  #teampara {
+    animation-delay: 1s;
+  } 
+
+  #joinusbtn {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 1.5s;
+  }
+  
+  .buisnessdiv .row > .col {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 1.5s;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* css and designing part*/
+
+
+p{
+    margin-top: 20px;
+}
+.our_team{
+    box-shadow:0px 100px 70px #f6e8fa inset;
+}
+.our_team{
+    margin-top: 3.8rem;
+}
+
+#joinusbtn{
+    background-color: rgb(109, 55, 160);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 150px;
+    height: 45px;
+    transition-duration: 0.4s;
+    transition: all 0.6s ease; 
+}
+#joinusbtn::after{
+    background-color: rgb(109, 55, 160);
+    opacity: 0;
+    transform: scale(1.07); 
+
+}
+#joinusbtn:hover{
+    background-color: rgb(109, 55, 160);
+    transform: translateY(4px);
+  }
+.buisnessdiv{
+    background-color: #f1e1f5;
+}
+@media (max-width: 762px) {
+    #teambanner{
+        max-width: 100%;
+        width: 100%;
+        height: auto !important;
+    }
+    #teamimg{
+        max-width: 100%;
+        width: 260;
+        height: auto !important;
+    }
+}
+
+@media (max-width: 1048){
+        #teambanner{
+            max-width: 90%;
+            width: 85%;
+            height: auto !important;
+            margin: 0%;
+        }
+        #teamimg{
+            max-width: 100%;
+            height: auto !important;
+        }
+}
+    

@@ -1,0 +1,83 @@
+/* Sign-up form css*/
+ .signupform{
+  border-radius: 8px;
+  height: auto;
+  width: 50%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+} 
+
+/*Submit - button*/
+
+/*logincss*/
+.submit{
+  background-color: #681C9A;
+  color: white;
+  height: 40px;
+  width: 34%;
+  border: none;
+  border-radius:6px;
+  justify-content: center;
+  font-weight: 500;
+  padding:0;
+  display:block;
+  margin: 0 auto;
+}
+.login{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 8px;
+  height: auto;
+  width: 35%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  margin-left: 33%;
+  margin-top: 4%;
+}
+#errormsg{
+  color: red;
+  text-align: left;
+  margin: 0;
+}
+.inputerror {
+  border-color: red !important ;
+}
+.loginform{
+  margin: 30px;
+}
+@media (max-width: 768px) {
+    .row {
+      display: flex;
+      flex-direction: column; 
+      width: 100%;
+    }
+    .col{
+      margin: 10px;
+    }
+    .input{
+      margin: auto;
+      padding: auto;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    .demo{
+      height: auto;
+      width: 100%;
+      margin: 0;
+    }
+    .login{
+      height: auto;
+      width: 100%;
+      margin: 0 !important;
+    }
+    .signupform{
+      height: auto;
+      width: 100%;
+      margin: 0;
+    }
+  }
+  

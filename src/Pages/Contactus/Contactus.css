@@ -1,0 +1,27 @@
+.maincontent{
+    box-shadow:0px 100px 70px #f6e8fa inset;
+    margin-top: 3.8rem;
+}
+#contactusbtn{
+    background-color: rgb(109, 55, 160);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 240px;
+    height: 45px;
+    transition-duration: 0.4s;
+    transition: all 0.6s ease; 
+    font-size: 19px;
+}
+@media (max-width: 762px) {
+    .contactbanner{
+        max-width: 100%;
+        width: 100%;
+        height: auto !important;
+    }
+    .contactbanner{
+        max-width: 100%;
+        width: 260;
+        height: auto !important;
+    }
+}

@@ -1,0 +1,132 @@
+.card{
+    padding: 26px;
+    border-radius: 5px;
+    text-align: end;
+    box-shadow: rgba(36, 35, 35, 0.1) 0px 4px 12px; 
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: all 0.5s ease; 
+    cursor: pointer;
+    width: 18rem;
+    /* max-width: 320px;  */
+}
+.card h5{
+    color: black;
+    font-weight: 600;
+}
+.card h3{
+    color: rgb(48, 48, 54);
+    font-weight: 600;
+    padding-top: 0;
+}
+.card p{
+    color: gray;
+    font-size: 13px;
+    margin-left: 4px;
+    margin-right: 0;
+}
+.card span{
+    color: rgb(42, 209, 78);
+    font-size: 17px;
+    font-weight: 500;
+}
+.card:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05); 
+    background-color: #f8f9fa;
+}
+.col{
+    text-align: start;
+    justify-content: start;
+}
+.bottomcol{
+    display: flex;
+    align-content: end;
+    justify-content:end ;
+}
+#atag:hover{
+    border-bottom: 1px solid rgb(110, 39, 168);
+    border-radius: 0%;
+}
+#atag{
+    border: none;
+    transition: background-color 0.5s, transform 0.5s;
+    color: rgb(110, 39, 168);
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+#paybtn{
+    background-color: green;
+    border: white;
+    border-radius: 5px;
+    width: 50%;
+    transition: all 0.6s ease; 
+}
+#paybtn:hover{
+    transform: scale(1.07); 
+}
+/* @media(max-width:768px){
+    .cards {
+        padding: 10px;
+        gap: 10px; 
+      }
+    
+      .card {
+        width: 100%; 
+        padding: 10px; 
+      }
+    
+      .card h6, .card h3, .card p {
+        font-size: 12px;
+      }
+    
+      #atag {
+        width: 100%;
+        font-size: 14px;
+      }
+}
+@media (max-width: 1024px) {
+
+     .card {
+        width: 100%;
+        padding: 10px;
+    } 
+
+    .card h6, .card h3, .card p {
+        font-size: 13px;
+    }
+
+    #atag {
+        width: 100%;
+        font-size: 14px;
+    }
+    .card h5{
+        justify-content:end;
+        align-items: end;
+        text-align: end;
+    }
+} */
+ /* @media (max-width: 1300px) {
+    .cards {
+        gap: 20%;
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 100%; 
+        padding: 20px;
+        margin-right:0%;
+    }
+
+    .card h6, .card h3, .card p {
+        font-size: 14px;
+    }
+
+    #atag {
+        width: 100%;
+        font-size: 16px;
+    }
+}  */
