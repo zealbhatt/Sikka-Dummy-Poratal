@@ -1,2 +1,3 @@
 # Sikka-Dummy-Poratal
-A dummy sikka lookalike website 
+A dummy website that has a signup login page as well as some components made using react.
+
